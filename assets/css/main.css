@@ -177,7 +177,7 @@ html {
 }
 
 body {
-  background: #2e3842;
+  background: #3e6b4d;
 }
 
 body.is-preload *,
@@ -1913,6 +1913,31 @@ header.major p {
   }
 }
 
+/* .journey,
+.technical {
+  background: #c5a28d !important;
+}
+
+.mentoring {
+  background: #2c5238 !important;
+}
+
+.journey h2,
+.journey p,
+.tehcnical h2,
+.technical p {
+  color: #f4f1e1 !important;
+} */
+
+.mentoring {
+  background: #c5a28d !important;
+}
+
+.mentoring h2,
+.mentoring p {
+  color: #f4f1e1 !important;
+}
+
 /* Form */
 
 form {
@@ -1960,7 +1985,7 @@ input[type='password']:focus,
 input[type='email']:focus,
 select:focus,
 textarea:focus {
-  box-shadow: 0 0 0 2px #21b2a6;
+  box-shadow: 0 0 0 2px #3e6b4d;
 }
 
 select {
@@ -2050,14 +2075,14 @@ input[type='radio'] + label:before {
 
 input[type='checkbox']:checked + label:before,
 input[type='radio']:checked + label:before {
-  background: #2e3842;
+  background: #3e6b4d;
   color: #fff;
   content: '\f00c';
 }
 
 input[type='checkbox']:focus + label:before,
 input[type='radio']:focus + label:before {
-  box-shadow: 0 0 0 2px #21b2a6;
+  box-shadow: 0 0 0 2px #3e6b4d;
 }
 
 input[type='checkbox'] + label:before {
@@ -2147,9 +2172,6 @@ input[type='radio'] + label:before {
 }
 
 .icon.major {
-  -moz-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
   border-radius: 3px;
   border: solid 2px #fff;
@@ -2161,10 +2183,8 @@ input[type='radio'] + label:before {
   width: calc(3em + 2px);
 }
 
-.icon.major:before {
-  -moz-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
+/* Fix: Rotate the actual <i> element back */
+.icon.major i {
   transform: rotate(45deg);
   display: inline-block;
   font-size: 1.5em;
@@ -2177,15 +2197,15 @@ input[type='radio'] + label:before {
 }
 
 .icon.style1 {
-  color: #00ffcc;
+  color: #f0c572;
 }
 
 .icon.style2 {
-  color: #00f0ff;
+  color: #a6543b;
 }
 
 .icon.style3 {
-  color: #76ddff;
+  color: #f6f2e7;
 }
 
 /* Image */
@@ -2596,7 +2616,7 @@ input[type='reset'].primary,
 input[type='button'].primary,
 button.primary,
 .button.primary {
-  background-color: #ed4933;
+  background-color: #c5a28d;
   box-shadow: none !important;
   color: #ffffff !important;
 }
@@ -2606,7 +2626,7 @@ input[type='reset'].primary:hover,
 input[type='button'].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #ef5e4a !important;
+  background-color: #a6543b !important;
 }
 
 input[type='submit'].primary:active,
@@ -2712,7 +2732,7 @@ button:disabled,
 
 .features li:before {
   display: block;
-  color: #00ffcc;
+  color: #a6543b;
   position: absolute;
   left: 1.75em;
   top: 2.75em;
@@ -2911,8 +2931,8 @@ button:disabled,
 }
 
 .wrapper.style1 {
-  background-color: #21b2a6;
-  color: #c8ece9;
+  background-color: #3e6b4d;
+  color: #f6f2e7;
 }
 
 .wrapper.style1 strong,
@@ -2953,7 +2973,7 @@ button:disabled,
 }
 
 .wrapper.style1 header.major p {
-  color: #c8ece9;
+  color: #f6f2e7;
 }
 
 .wrapper.style1 label {
@@ -2974,12 +2994,12 @@ button:disabled,
 
 .wrapper.style1 select option {
   color: #ffffff;
-  background: #21b2a6;
+  background: #3e6b4d;
 }
 
 .wrapper.style1 input[type='checkbox'] + label,
 .wrapper.style1 input[type='radio'] + label {
-  color: #c8ece9;
+  color: #f6f2e7;
 }
 
 .wrapper.style1 input[type='checkbox'] + label:before,
@@ -2990,7 +3010,7 @@ button:disabled,
 .wrapper.style1 input[type='checkbox']:checked + label:before,
 .wrapper.style1 input[type='radio']:checked + label:before {
   background: #ffffff;
-  color: #21b2a6;
+  color: #3e6b4d;
 }
 
 .wrapper.style1 ::-webkit-input-placeholder {
@@ -3077,11 +3097,11 @@ button:disabled,
 }
 
 .wrapper.style2 {
-  background-color: #2e3842;
+  background-color: #3e6b4d;
 }
 
 .wrapper.style3 {
-  background-color: #505393;
+  background-color: #2c5238;
   color: #d3d4e4;
 }
 
@@ -3144,7 +3164,7 @@ button:disabled,
 
 .wrapper.style3 select option {
   color: #ffffff;
-  background: #505393;
+  background: #2c5238;
 }
 
 .wrapper.style3 input[type='checkbox'] + label,
@@ -3160,7 +3180,7 @@ button:disabled,
 .wrapper.style3 input[type='checkbox']:checked + label:before,
 .wrapper.style3 input[type='radio']:checked + label:before {
   background: #ffffff;
-  color: #505393;
+  color: #2c5238;
 }
 
 .wrapper.style3 ::-webkit-input-placeholder {
@@ -3257,7 +3277,7 @@ button:disabled,
 
 .wrapper.style5 strong,
 .wrapper.style5 b {
-  color: #2e3842;
+  color: #3e6b4d;
 }
 
 .wrapper.style5 h2,
@@ -3265,7 +3285,7 @@ button:disabled,
 .wrapper.style5 h4,
 .wrapper.style5 h5,
 .wrapper.style5 h6 {
-  color: #2e3842;
+  color: #3e6b4d;
 }
 
 .wrapper.style5 hr {
@@ -3297,7 +3317,7 @@ button:disabled,
 }
 
 .wrapper.style5 label {
-  color: #2e3842;
+  color: #3e6b4d;
 }
 
 .wrapper.style5 input[type='text'],
@@ -3313,7 +3333,7 @@ button:disabled,
 }
 
 .wrapper.style5 select option {
-  color: #2e3842;
+  color: #3e6b4d;
   background: #ffffff;
 }
 
@@ -3329,7 +3349,7 @@ button:disabled,
 
 .wrapper.style5 input[type='checkbox']:checked + label:before,
 .wrapper.style5 input[type='radio']:checked + label:before {
-  background: #2e3842;
+  background: #3e6b4d;
   color: #ffffff;
 }
 
@@ -3370,7 +3390,7 @@ button:disabled,
 }
 
 .wrapper.style5 table th {
-  color: #2e3842;
+  color: #3e6b4d;
 }
 
 .wrapper.style5 table thead {
@@ -3391,7 +3411,7 @@ button:disabled,
 .wrapper.style5 button,
 .wrapper.style5 .button {
   box-shadow: inset 0 0 0 2px #dfdfdf;
-  color: #2e3842;
+  color: #3e6b4d;
 }
 
 .wrapper.style5 input[type='submit']:hover,
@@ -3462,7 +3482,7 @@ button:disabled,
   -ms-transition: -ms-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
-  background: #21b2a6;
+  background: #3e6b4d;
   color: #ffffff;
   height: 100%;
   max-width: 80%;
@@ -3552,7 +3572,7 @@ body.is-menu-visible #menu {
   -webkit-transition: background-color 0.2s ease;
   -ms-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
-  background: #2e3842;
+  background: #3e6b4d;
   height: 3em;
   left: 0;
   line-height: 3em;
@@ -3796,7 +3816,7 @@ body.is-menu-visible #menu {
   -ms-transition-delay: 1.25s;
   transition-delay: 1.25s;
   content: '';
-  background: #2e3842;
+  background: #3e6b4d;
   display: block;
   width: 100%;
   height: 100%;
